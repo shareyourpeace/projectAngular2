@@ -1,0 +1,121 @@
+[
+    {
+        "character": "Charlie Brown",
+        "gender": "boy",
+        "date": 1950,
+        "detailsURL": "http://en.wikipedia.org/wiki/Charlie_Brown",
+        "image": "images/charlieBrownWeb.jpg"
+    },
+    {
+        "character": "Snoopy",
+        "gender": "boy",
+        "date": 1950,
+        "detailsURL": "http://en.wikipedia.org/wiki/Snoopy",
+        "image": "images/snoopyWeb.jpg"
+    },
+    {
+        "character": "Lucy Van Pelt",
+        "gender": "girl",
+        "date": 1952,
+        "detailsURL": "http://en.wikipedia.org/wiki/Lucy",
+        "image": "images/lucyWeb.jpg"
+    },
+    {
+        "character": "Linus Van Pelt",
+        "gender": "boy",
+        "date": 1952,
+        "detailsURL": "http://en.wikipedia.org/wiki/Linus",
+        "image": "images/linusWeb.jpg"
+    },
+    {
+        "character": "Shermy",
+        "gender": "boy",
+        "date": 1950,
+        "detailsURL": "https://en.wikipedia.org/wiki/Shermy",
+        "image": "images/shermyWeb.jpg"
+    },
+    {
+        "character": "Violet Gray",
+        "gender": "girl",
+        "date": 1951,
+        "detailsURL": "https://en.wikipedia.org/wiki/Violet_Gray",
+        "image": "images/violetWeb.jpg"
+    },
+    {
+        "character": "Schroeder",
+        "gender": "boy",
+        "date": 1951,
+        "detailsURL": "https://en.wikipedia.org/wiki/Schroeder_%28Peanuts%29",
+        "image": "images/schroederWeb.jpg"
+    },
+        {
+        "character": "Pig-Pen",
+        "gender": "boy",
+        "date": 1954,
+        "detailsURL": "https://en.wikipedia.org/wiki/Pig-Pen",
+        "image": "images/pigpenWeb.jpg"
+    },
+    {
+        "character": "Sally Brown",
+        "gender": "girl",
+        "date": 1959,
+        "detailsURL": "https://en.wikipedia.org/wiki/Sally_Brown",
+        "image": "images/sallyWeb.jpg"
+    },
+    {
+        "character": "Freda",
+        "gender": "girl",
+        "date": 1961,
+        "detailsURL": "https://en.wikipedia.org/wiki/Frieda_%28Peanuts%29",
+        "image": "images/freidaWeb.jpg"
+    },
+    {
+        "character": "Peppermint Patty",
+        "gender": "girl",
+        "date": 1966,
+        "detailsURL": "https://en.wikipedia.org/wiki/Peppermint_Patty",
+        "image": "images/peppermintPattyWeb.jpg"
+    },
+    {
+        "character": "WoodStock",
+        "gender": "boy",
+        "date": 1966,
+        "detailsURL": "https://en.wikipedia.org/wiki/Woodstock_%28Peanuts%29",
+        "image": "images/woodstockWeb.jpg"
+    },
+    {
+        "character": "Franklin",
+        "gender": "boy",
+        "date": 1968,
+        "detailsURL": "https://en.wikipedia.org/wiki/Franklin_%28Peanuts%29",
+        "image": "images/franklinWeb.jpg"
+    },
+    {
+        "character": "Marcie",
+        "gender": "girl",
+        "date": 1971,
+        "detailsURL": "https://en.wikipedia.org/wiki/Marcie",
+        "image": "images/marcieWeb.jpg"
+    },
+    {
+        "character": "Rerun Van Pelt",
+        "gender": "boy",
+        "date": 1973,
+        "detailsURL": "https://en.wikipedia.org/wiki/Rerun_van_Pelt",
+        "image": "images/rerunWeb.jpg"
+    },
+    {
+        "character": "Eudora",
+        "gender": "girl",
+        "date": 1978,
+        "detailsURL": "https://en.wikipedia.org/wiki/Eudora_%28Peanuts%29",
+        "image": "images/eudoraWeb.jpg"
+    },
+    {
+        "character": "Patty - Not Peppermint",
+        "gender": "girl",
+        "date": 1950,
+        "detailsURL": "https://en.wikipedia.org/wiki/Patty_%28Peanuts%29"
+        
+    }   
+]

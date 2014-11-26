@@ -1,0 +1,65 @@
+<!--program fetches Json Data with $http
+    search and uses filters
+    then sort interactively by clicking on a column
+    then be able to reverse the sort; it TOGGLES the reverse boolean.
+-->
+
+<html ng-app ="peanutsApp" >
+  <head>
+    <meta charset="utf-8">
+    <title>Angular.js Example</title>
+    <!--<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.1/angular.min.js"></script>-->
+    <script src="angular.js"></script>
+    <script src="angular-route.js"></script>
+    <link href="styles.css" rel="stylesheet">
+    <script>
+        var peanutsApp = angular.module('peanutsApp', ['ngRoute']);
+        
+        peanutsApp.config(function($routeProvider) {
+            $routeProvider
+                    .when('/', {
+                        templateUrl:'peanut-list.html',
+                        controller: 'PeanutsListCtrl'
+            })
+                    .when('/:peanutCharacter', {         
+                        templateUrl:'peanut-detail.html',
+                        controller: 'PeanutsDetailCtrl'
+            })
+                    .otherwise({
+                        redirectTo: '/'
+            });
+        });
+        
+       peanutsApp.factory('peanuts', function($http){
+        return {  // return an object that has a function on it called list. so list  means list the peanuts for me.
+          list: function(callback){
+            $http.get('peanuts.json').success(callback);
+        },
+          find: function(character, callback){
+               $http.get('peanuts.json').success(function(data) {
+                var peanut = data.filter(function(entry){
+                    return entry.character === character;
+                })[0];
+                callback(peanut);
+            });
+          }
+      };
+      });
+
+      peanutsApp.controller('PeanutsListCtrl', function ($scope, peanuts){
+        peanuts.list(function(peanuts) {
+          $scope.peanuts = peanuts;
+        });
+      });
+
+      peanutsApp.controller('PeanutsDetailCtrl', function ($scope, $routeParams, peanuts ){
+        peanuts.find($routeParams.peanutCharacter, function(peanut) {
+          $scope.peanut = peanut;
+        });
+      });
+    </script>   
+  </head>
+ <body>
+<div ng-view></div>
+</body>
+</html>
